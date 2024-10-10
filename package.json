@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "tsc -b",
-    "db:generate": "cd packages/db && npx prisma generate && cd ../.."
+    "db:generate": "npx prisma generate"
   },
   "keywords": [],
   "author": "",
